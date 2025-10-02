@@ -29,9 +29,9 @@ pip install selenium
 
 3. **更新憑證**：
 - 將腳本中的佔位符替換為您的實際使用者名稱和密碼：
-『`python
+```python
 username_input.send_keys("your_username") # 替換為您的使用者名稱
-password_input.send_keys("your_password") # 替換為您的密碼
+password_input.send_keys("your_password") # 替換為您的密碼```
 
 ### 日誌函數
 此函數將操作記錄到名為 `automation_log.txt` 的文字檔案中。
@@ -99,9 +99,10 @@ pip install selenium
 
 3. **Update Credentials**:
 - Replace the placeholders in the script with your actual username and password:
-`python
+```python
 username_input.send_keys("your_username") # Replace with your username
 password_input.send_keys("your_password") # Replace with your password
+```
 
 ### Logging Function
 This function logs operations to a text file named `automation_log.txt`.
