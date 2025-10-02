@@ -31,7 +31,8 @@ pip install selenium
 - 將腳本中的佔位符替換為您的實際使用者名稱和密碼：
 ```python
 username_input.send_keys("your_username") # 替換為您的使用者名稱
-password_input.send_keys("your_password") # 替換為您的密碼```
+password_input.send_keys("your_password") # 替換為您的密碼
+```
 
 ### 日誌函數
 此函數將操作記錄到名為 `automation_log.txt` 的文字檔案中。
